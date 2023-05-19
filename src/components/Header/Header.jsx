@@ -7,7 +7,7 @@ import { RiMenu2Fill } from 'react-icons/ri';
 const Header = () => {
   return (
     <div className="block mx-auto sm:w-[80%]">
-      <div className="mx-auto absolute header w-[100%] sm:w-[80%] flex justify-between">
+      <div className="mx-auto absolute header w-[90%] sm:w-[80%] flex justify-between">
       <div className="header_brand">
         <img src={brandImg} alt="brand" className="brand-img" />
       </div>

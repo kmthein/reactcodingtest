@@ -47,7 +47,7 @@ const Slideshow = () => {
   return (
     <div className="max-h-[900px] sm:w-full w-full m-auto relative group">
       <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-[700px] bg-center bg-cover duration-500"></div>
-      <div className="hidden group-hover:block absolute top-[30%] -translate-x-0 translate-y-[50%] left-5 text-2xl px-2 py-[50px] rounded-md bg-black/20 text-white cursor-pointer">
+      <div className="hidden group-hover:block absolute top-[30%] -translate-x-0 translate-y-[50%]  left-5 text-2xl px-2 py-[50px] rounded-md bg-black/20 text-white cursor-pointer">
         <BsArrowLeft size={20} onClick={prevSlide}/>
       </div>
       <div className="hidden group-hover:block absolute top-[30%] -translate-x-0 translate-y-[50%] right-5 text-2xl px-2 py-[50px] rounded-md bg-black/20 text-white cursor-pointer">
