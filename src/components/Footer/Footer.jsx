@@ -66,8 +66,8 @@ const Footer = () => {
                 <BsFacebook size={30} className='text-blue-600'/>
                 <AiOutlineInstagram size={30} className='text-orange-600'/>
                 <FaViber size={30} className='text-violet-700' />
-                <BsTelegram size={30} className='text-blue-500' />'
-                <BsTwitter size={30} className='text-blue-500' />'
+                <BsTelegram size={30} className='text-blue-500' />
+                <BsTwitter size={30} className='text-blue-500' />
             </div>
         </div>
     </div>
